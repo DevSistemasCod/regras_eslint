@@ -1,11 +1,11 @@
-  rules: {
-      'semi': ['error', 'always'],                                    // Exige ponto e vírgula no final das instruções
-      'quotes': ['error', 'single'],                                  // Exige aspas simples
-      'indent': ['error', 2],                                         // Exige indentação de 2 espaços
-      'comma-spacing': ['error', { before: false, after: true }],     // Formatação de vírgulas
-      'no-unused-vars': ['error'],                                    // Proíbe variáveis declaradas mas não utilizadas.
-      'curly': ['error', 'all'],                                      // Exige que todos os blocos de código (como em if, for, etc.) estejam entre chaves {}
-      'no-undef': ['error'],                                          // Impede o uso de variáveis não definidas. 
-      'prefer-const': ['error'],                                      // Exige o uso de const em vez de let para variáveis que não são reatribuídas.
-      'no-var': ['error'],                                            // Exige let ou const no lugar de var
+   rules: {
+      semi: ["error", "always"],                                       // Exige ponto e vírgula no final das instruções
+      quotes: ["error", "double", { "allowTemplateLiterals": true }],  // Exige aspas duplas
+      //'indent': ['error', 2],                                        // Exige indentação de 2 espaços
+      "comma-spacing": ["error", { before: false, after: true }],      // Formatação de vírgulas
+      "no-unused-vars": ["error"],                                     // Proíbe variáveis declaradas mas não utilizadas.
+      curly: ["error", "all"],                                         // Exige que todos os blocos de código (como em if, for, etc.) estejam entre chaves {}
+      "no-undef": ["error"],                                           // Impede o uso de variáveis não definidas.
+      "prefer-const": ["error"],                                       // Exige o uso de const em vez de let para variáveis que não são reatribuídas.
+      "no-var": ["error"],                                             // Exige let ou const no lugar de var
     }
